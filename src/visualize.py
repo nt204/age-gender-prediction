@@ -13,7 +13,6 @@ for file in history_files:
     model_name = os.path.splitext(os.path.basename(file))[0]
     print(f"Đang xử lý: {model_name}")
 
-    # Đọc file CSV
     df = pd.read_csv(file)
 
     # Vẽ loss cho gender và age
