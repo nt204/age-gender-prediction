@@ -44,6 +44,14 @@ Biểu đồ dưới đây được tạo bằng script [`visualize.py`](/src/vi
 | VGG16 | ![](plot/VGG16_accuracy.png) |
 | EfficientNetB0 | ![](plot/EfficientNetB0_accuracy.png) |
 
+## 📊 Kết quả kiểm tra
+### 🔹 Gender Accuracy
+| Model | Accuracy |
+|-------|----------|
+| ResNet50 | 0.9414 |
+| VGG16 | 0.9114 |
+| EfficientNetB0 | 0.7966 |
+
 ### 🔹 Age MAE
 | Model | MAE |
 |-------|-----|
