@@ -40,19 +40,19 @@ Biểu đồ dưới đây được tạo bằng script [`visualize.py`](/src/vi
 ### 🔹 Gender Accuracy
 | Model | Accuracy |
 |-------|----------|
-| ResNet50 | ![](plots/ResNet50_gender_accuracy.png) |
-| VGG16 | ![](plots/VGG16_gender_accuracy.png) |
-| EfficientNetB0 | ![](plots/EfficientNetB0_gender_accuracy.png) |
+| ResNet50 | ![](plot/ResNet50_accuracy.png) |
+| VGG16 | ![](plot/VGG16_accuracy.png) |
+| EfficientNetB0 | ![](plot/EfficientNetB0_accuracy.png) |
 
 ### 🔹 Age MAE
 | Model | MAE |
 |-------|-----|
-| ResNet50 | ![](plots/ResNet50_age_mae.png) |
-| VGG16 | ![](plots/VGG16_age_mae.png) |
-| EfficientNetB0 | ![](plots/EfficientNetB0_age_mae.png) |
+| ResNet50 | 9.048 |
+| VGG16 | 11.368 |
+| EfficientNetB0 | 13.502 |
 
 ---
 
 ## 🚀 Cách chạy lại
-jupyter notebook notebooks/EDA_and_Demo.ipynb
+jupyter notebook notebooks/age-and-gender-detection.ipynb
 python src/train.py
