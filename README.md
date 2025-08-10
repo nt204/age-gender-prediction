@@ -33,9 +33,9 @@ Biểu đồ dưới đây được tạo bằng script [`visualize.py`](/src/vi
 ### 🔹 Loss
 | Model | Loss |
 |-------|------|
-| ResNet50 | ![](plots/ResNet50_loss.png) |
-| VGG16 | ![](plots/VGG16_loss.png) |
-| EfficientNetB0 | ![](plots/EfficientNetB0_loss.png) |
+| ResNet50 | ![](plot/ResNet50_loss.png) |
+| VGG16 | ![](plot/VGG16_loss.png) |
+| EfficientNetB0 | ![](plot/EfficientNetB0_loss.png) |
 
 ### 🔹 Gender Accuracy
 | Model | Accuracy |
